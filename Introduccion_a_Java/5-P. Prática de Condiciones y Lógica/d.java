@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    int a = entrada.nextInt(), b = entrada.nextInt(), c = entrada.nextInt() , d = entrada.nextInt();
+        int count [] = new int[1005];
+        if ((a % 4 == 0 && a % 100 != 0) || a % 400 == 0){
+            System.out.print("29 ");
+        } else {
+            System.out.print("28 ");
+        }
+
+        if ((b % 4 == 0 && b % 100 != 0) || b % 400 == 0){
+            System.out.print("29 ");
+        } else {
+            System.out.print("28 ");
+        }
+
+        if ((c % 4 == 0 && c % 100 != 0) || c % 400 == 0){
+            System.out.print("29 ");
+        } else {
+            System.out.print("28 ");
+        }
+
+        if ((d % 4 == 0 && d % 100 != 0) || d % 400 == 0){
+            System.out.print("29 ");
+        } else {
+            System.out.print("28 ");
+        }
+        
+
+    }
+}
